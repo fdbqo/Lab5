@@ -6,8 +6,8 @@ namespace Lab5Q1
     {
         static void Main(string[] args)
         {
-            Game g1 = new Game("Monopoly", 19.99m, new DateTime(1970, 01, 31));
-            Game g2 = new Game() { Price = 10.99m, ReleaseDate = new DateTime(2000, 6, 15) };
+            OtherGame g1 = new OtherGame("Monopoly", 19.99m, new DateTime(1970, 01, 31));
+            OtherGame g2 = new OtherGame() { Price = 10.99m, ReleaseDate = new DateTime(2000, 6, 15) };
 
             ComputerGame g3 = new ComputerGame("Test", 49.99m, new DateTime(2010, 12, 25), "18");
             ComputerGame g4 = new ComputerGame();
@@ -26,7 +26,7 @@ namespace Lab5Q1
         }
     }
 
-    class Game
+    abstract class Game
     {
         public string Name { get; set; }
         public decimal Price { get; set; } // protected does not work in main due to protection level
@@ -53,14 +53,27 @@ namespace Lab5Q1
             return $"Name  : {Name}\nPrice : {Price}\nDate  : {ReleaseDate.ToShortDateString()}";
         }
 
-        public virtual void UpdatePrice(decimal percentageIncrease)
+        public abstract void UpdatePrice(decimal percentageIncrease);
+    }
+    
+    class OtherGame : Game
+    {
+
+        
+        public OtherGame(string name, decimal price, DateTime releaseDate) : base(name, price, releaseDate)
         {
-            Price *= (1 + percentageIncrease);
+
+        }
+        public OtherGame()
+        {
+
         }
 
-
+        public override void UpdatePrice(decimal percentageIncrease)
+        {
+            Price *= 1 + percentageIncrease;
+        }
     }
-
     class ComputerGame : Game
     {
         public string PEGIRating { get; set; }
