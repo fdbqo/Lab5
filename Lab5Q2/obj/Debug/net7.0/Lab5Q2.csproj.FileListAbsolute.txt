@@ -1,0 +1,15 @@
+/workspaces/Lab5/Lab5Q2/obj/Debug/net7.0/Lab5Q2.csproj.AssemblyReference.cache
+/workspaces/Lab5/Lab5Q2/obj/Debug/net7.0/Lab5Q2.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Lab5/Lab5Q2/obj/Debug/net7.0/Lab5Q2.AssemblyInfoInputs.cache
+/workspaces/Lab5/Lab5Q2/obj/Debug/net7.0/Lab5Q2.AssemblyInfo.cs
+/workspaces/Lab5/Lab5Q2/obj/Debug/net7.0/Lab5Q2.csproj.CoreCompileInputs.cache
+/workspaces/Lab5/Lab5Q2/bin/Debug/net7.0/Lab5Q2
+/workspaces/Lab5/Lab5Q2/bin/Debug/net7.0/Lab5Q2.deps.json
+/workspaces/Lab5/Lab5Q2/bin/Debug/net7.0/Lab5Q2.runtimeconfig.json
+/workspaces/Lab5/Lab5Q2/bin/Debug/net7.0/Lab5Q2.dll
+/workspaces/Lab5/Lab5Q2/bin/Debug/net7.0/Lab5Q2.pdb
+/workspaces/Lab5/Lab5Q2/obj/Debug/net7.0/Lab5Q2.dll
+/workspaces/Lab5/Lab5Q2/obj/Debug/net7.0/refint/Lab5Q2.dll
+/workspaces/Lab5/Lab5Q2/obj/Debug/net7.0/Lab5Q2.pdb
+/workspaces/Lab5/Lab5Q2/obj/Debug/net7.0/Lab5Q2.genruntimeconfig.cache
+/workspaces/Lab5/Lab5Q2/obj/Debug/net7.0/ref/Lab5Q2.dll

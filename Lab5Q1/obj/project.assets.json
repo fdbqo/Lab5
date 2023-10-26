@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/Lab5/Lab5.csproj",
+      "projectUniqueName": "/workspaces/Lab5/Lab5Q1/Lab5.csproj",
       "projectName": "Lab5",
-      "projectPath": "/workspaces/Lab5/Lab5.csproj",
+      "projectPath": "/workspaces/Lab5/Lab5Q1/Lab5.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/Lab5/obj/",
+      "outputPath": "/workspaces/Lab5/Lab5Q1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"
